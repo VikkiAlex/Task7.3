@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    padding: 30px 0px;
+    background-image: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family: "Georgia";
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+}
+div .logo p{
+    font-family: "Arial";
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-left: 35px;
+}
+a{
+    font-family: "Arial";
+    font-size: 15px;
+    text-decoration: none;
+    color: #CDCDCD;
+    display: block;
+    padding-bottom: 4px;
+}
+.pets{
+    border-bottom: #F1CDB3 solid 3px;
+    color: #FAFAFA;;
+}
+.first{
+    background-image: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+}
+.startscreen{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 77px;
+}
+main .content h1{
+    font-family: "Georgia";
+    font-size: 44px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 223px;
+}
+main .content p{
+    font-family: "Arial";
+    font-size: 15px;
+    color: #CDCDCD;
+    padding-top: 42px;
+}
+button{
+    margin-top: 56px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    border: none;
+    font-family: "Georgia";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+}
+.puppy{
+    display: flex;
+    align-items: flex-end;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.foto{
+    padding-top: 80px;
+    padding-left: 175px;
+    padding-bottom: 100px;
+}
+.text{
+    padding-top: 94px;
+    padding-left: 126px;
+}
+main .two .text h3{
+    font-family: "Georgia";
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+    padding-bottom: 23px;
+}
+main .two .text p{
+    font-family: "Arial";
+    font-size: 15px;
+    color: #4C4C4C;
+    line-height: 160%;
+}
+.textt{
+    padding-top: 25px;
+}
+.three{
+    background: #F6F6F6;
+}
+.pet{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+main .three .pet p{
+    font-family: "Georgia";
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.animal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+main .three .animal button{
+    padding: 15px 19px;
+    background: none;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+}
+.katrine{
+    background: #FAFAFA;
+}
+.katrine p{
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding-top: 30px;
+}
+main .three .animal .katrine button{
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    margin: 30px 41.5px;
+}
+.jennifer{
+    background: #FAFAFA;
+}
+.jennifer p{
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding-top: 30px;
+}
+main .three .animal .jennifer button{
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    margin: 30px 41.5px;
+}
+.woody{
+    background: #FAFAFA;
+}
+.woody p{
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding-top: 30px;
+}
+main .three .animal .woody button{
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    margin: 30px 41.5px;
+}
+.next{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+main .three .next button{
+    font-family: "Georgia";
+    font-size: 17px;
+    font-weight: 400;
+    color: #292929;
+    letter-spacing: 0.06em;
+    background: #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+}
+.help p{
+    font-family: "Georgia";
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-top: 80px;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 145px;
+    margin-right: 162px;
+    padding-top: 60px;
+}
+.icon1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 225px;
+    margin-right: 253px;
+    padding-top: 55px;
+    padding-bottom: 98px;
+}
+.v{
+    width: 150px;
+    height: 113px;
+    text-align: center;
+}
+.vv{
+    width: 180px;
+    height: 113px;
+    text-align: center;
+}
+main .four .icon p{
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+    padding-top: 30px;
+    
+}
+main .four .icon1 p{
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+    padding-top: 30px;
+}
+.five{
+    background: #F6F6F6;
+}
+.donation{
+    display: flex;
+    justify-content: space-around;
+    padding: 81px  214px 182px 101px;
+}
+.dog{
+    margin-left: 182px;
+}
+.name{
+    margin-right: 214px;
+}
+main .five .donation .name h2{
+    font-family: "Georgia";
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+main .five .donation .name h5{
+    font-family: "Georgia";
+    font-size: 15px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+    padding-top: 20px;
+}
+main .five button{
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    background: #F1CDB3;
+    border-radius: 9px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+main .five button img{
+padding-right: 10px;
+}
+main .five .donation .name p{
+    font-family: "Arial";
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    color: #B2B2B2;
+    padding-top: 20px;
+}
+
+
+
+
+
+footer{
+    height: 350px;
+    margin: auto;
+    padding-top: 40px;
+    background-image: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+}
+.cont{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.location{
+    width: 302px;
+}
+footer h1{
+    font-family: "Georgia";
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 0.06em;
+    padding-top: 16px;
+    padding-bottom: 45px;
+}
+.mail{
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: 400;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+}
+footer p{
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: 400;
+    color: #F1CDB3;
+    letter-spacing: 0.06em; 
+    min-height: 40px;
+    padding-left: 60px;
+    margin-bottom: 27px;
+    display: flex;
+    align-items: center;
+}
+footer .email{
+    background: url(./images/mail.svg) no-repeat left center;
+}
+footer .tel{
+    background: url(./images/phone.svg) no-repeat left center;
+}
+footer .local{
+    background: url(./images/pin.svg) no-repeat left center;
+    padding-left: 42px;
+}
